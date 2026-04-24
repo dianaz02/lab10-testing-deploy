@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { TodoList } from "./TodoList";
+import { TodoList } from "./components/TodoList";
 
 describe("TodoList Component", () => {
   test("renders empty todo list and adds a new item", async () => {
